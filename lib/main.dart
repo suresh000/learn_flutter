@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screens/appbar.dart';
 import 'screens/button.dart';
 import 'screens/container.dart';
 import 'screens/dashboard.dart';
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
       //home: ClickIcon()
       //home: ContainerProfile()
       //home: ContainerProfile()
-      home: Buttons()
+      //home: Buttons()
+      home: CustomAppBar()
     );
   }
 }
